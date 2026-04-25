@@ -1,0 +1,29 @@
+# Virtual environment
+venv/
+
+# Model weights (too large for GitHub)
+models/*.pth
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Streamlit cache
+.streamlit/secrets.toml
+
+# Evaluation results
+evaluation_results/
+
+# Dataset (never upload datasets to GitHub)
+*.zip
+*.tar.gz
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
